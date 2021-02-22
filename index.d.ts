@@ -39,7 +39,7 @@ declare module "react-image-file-resizer" {
     ): void;
   }
 
-  const FileResizer: { imageFileResizer: typeof Resizer.createResizedImage };
+  const FileResizer: { resizeAndRotate: typeof Resizer.resizeAndRotateImage; imageFileResizer: typeof Resizer.createResizedImage };
 
   export default FileResizer;
 }
