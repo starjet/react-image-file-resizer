@@ -181,6 +181,7 @@ class Resizer {
   }
 }
 export default {
+  resizeAndRotate: Resizer.resizeAndRotateImage,
   imageFileResizer: (
     file,
     maxWidth,
@@ -206,5 +207,4 @@ export default {
       minHeight,
     );
   },
-  Resizer.resizeAndRotateImage,
 };
